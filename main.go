@@ -11,6 +11,7 @@ import (
 	"google.golang.org/grpc"
 )
 
+// used command to create proto file  => protoc --go_out=. --go-grpc_out=. proto/user.proto
 func main() {
 	err := db.InitMongo()
 
